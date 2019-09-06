@@ -4,8 +4,8 @@ String template library inspired by both jsonpath and string-template projects
 Uses jsonpath to provide the path handling. Kept as simple as possible - so no template loading or caching from files.
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://travis-ci.com/adamfowleruk/cntracelog.svg?branch=master)](https://travis-ci.com/adamfowleruk/jsonpath-template)
-[![Coverage Status](https://coveralls.io/repos/github/adamfowleruk/cntracelog/badge.svg?branch=master)](https://coveralls.io/github/adamfowleruk/jsonpath-template?branch=master)
+[![Build Status](https://travis-ci.com/adamfowleruk/jsonpath-template.svg?branch=master)](https://travis-ci.com/adamfowleruk/jsonpath-template)
+[![Coverage Status](https://coveralls.io/repos/github/adamfowleruk/jsonpath-template/badge.svg?branch=master)](https://coveralls.io/github/adamfowleruk/jsonpath-template?branch=master)
 ![David](https://img.shields.io/david/adamfowleruk/jsonpath-template.svg)
 ![npm](https://img.shields.io/npm/v/jsonpath-template.svg)
 ![npm](https://img.shields.io/npm/dt/jsonpath-template.svg)
