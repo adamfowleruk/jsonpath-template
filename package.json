@@ -1,0 +1,39 @@
+{
+  "name": "jsonpath-template",
+  "version": "1.0.0",
+  "description": "String template library inspired by both jsonpath and string-template projects",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "c8 mocha --exit tests/**/*.spec.js",
+    "coverage": "c8 report --reporter=text-lcov | coveralls"
+  },
+  "engines": {
+    "node": ">=10.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamfowleruk/jsonpath-template.git"
+  },
+  "keywords": [
+    "jsonpath",
+    "template",
+    "json",
+    "node.js",
+    "node"
+  ],
+  "author": "Adam Fowler <adamfowleruk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamfowleruk/jsonpath-template/issues"
+  },
+  "homepage": "https://github.com/adamfowleruk/jsonpath-template#readme",
+  "devDependencies": {
+    "c8": "5.0.3",
+    "chai": "4.2.0",
+    "coveralls": "3.0.6",
+    "mocha": "6.2.0"
+  },
+  "dependencies": {
+    "jsonpath": "1.0.2"
+  }
+}
