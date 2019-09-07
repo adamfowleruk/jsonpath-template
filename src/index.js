@@ -22,7 +22,7 @@ class Template {
       newString += this.templateString.substring(lastPos, pos);
       var path = this.templateString.substring(pos + this.pair[0].length, endpos);
       var result = jp.query(context,path,1);
-      if (null == result) {
+      if (null == result || !Array.isArray(result) || result.length < 1) {
         // not found, i.e. undefined - leave blank
       } else {
         newString += result[0];
