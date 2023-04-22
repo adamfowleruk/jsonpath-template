@@ -51,4 +51,4 @@ var tplString = "Hello there [[$['person'].name]], isn't it a [[$.daytype]] day?
 
 ## License and Copyright
 
-Copyright Adam Fowler. License is MIT.
+Copyright Adam Fowler 2019-2023. License is MIT.
