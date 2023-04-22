@@ -22,7 +22,7 @@
     "node"
   ],
   "author": "Adam Fowler <adamfowleruk@gmail.com>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/adamfowleruk/jsonpath-template/issues"
   },
